@@ -1,0 +1,176 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 10;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	  background-color:transparent;
+  	font-family: Helvetica, Arial, sans-serif
+  }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+/* #Basic Styles
+================================================== */
+
+body {
+	font-family: Helvetica;
+	font-weight: 400;
+	line-height: 1.75em;
+	background-color: #FF0000;
+	border-radius: 0.357em;
+	font-size: 1em;
+	margin: 0 0.25em;
+	padding: 0.25em 0.65em;
+	text-align: center;
+	max-width: 90em;
+}
+
+a {
+	border-bottom: solid 0.1em #696969;
+	color: inherit;
+	text-decoration: none;
+}
+
+	a:hover {
+		border-bottom-color: transparent;
+		color: #696969;
+	}
+
+p {
+	margin: .25em .25em .25em .25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:black;
+	font-weight: 200;
+	line-height: 1em;
+	margin: .25 .25 .25em .25;
+}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			border: 0;
+			color: inherit;
+			text-decoration: none;
+		}
+
+h1{
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+h2 {
+	font-size: 3em;
+	line-height: 0.5em;
+}
+
+h3 {
+	font-size: 1.75em;
+	line-height: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+	line-height: 0.5em;
+}
+
+img {
+	max-width:100%;
+	/*padding-left: 35px;*/
+	margin: auto;
+}
+
+header p {
+	color: #aaa;
+	position: relative;
+	margin: 0 0 1.6875em 0;
+}
+
+header h2 + p {
+	font-size: 1.25em;
+	margin-top: 0.5em;
+	line-height: 1.5em;
+}
+
+header h3 + p {
+	font-size: 1.1em;
+	margin-top: 0.35em;
+	line-height: 1.5em;
+}
+
+header h4 + p,
+header h5 + p,
+header h6 + p {
+	font-size: 0.9em;
+	margin-top: 0.25em;
+	line-height: 1.5em;
+}
+
+
+ol {
+	margin: 0.5em 0;
+
+}
+
+li {
+	margin: 0.5em 0;
+}
+
+sub {
+	font-size: 0.8em;
+	position: relative;
+	top: 0.5em;
+}
+
+sup {
+	font-size: 0.8em;
+	position: relative;
+	top: -0.5em;
+}
+
+hr {
+	border: 0;
+	border-bottom: solid .125em #696969;
+	margin: 2.25em 0;
+}
+
+	hr.major {
+		margin: 3.375em 0;
+	}
+
+blockquote {
+	border-left: solid .500em #e4e4e4;
+	font-style: italic;
+	margin: 0 0 2.25em 0;
+	padding: 0.5em 0 0.5em 2em;
+}
+
+
+
+
