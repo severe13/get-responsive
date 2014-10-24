@@ -39,15 +39,14 @@
 </script>
 </head>
 <body>
-  <div class="container">
-      <div class="sixteen columns">
-        <img id= "img" src="https://pbs.twimg.com/profile_images/2325717577/icon.png"></div>
-        <h1>RIDE FAQ</h1>
-        <h3>You Asked, We Answered!</h3>
-        <hr />
-  </div>
   <div>
-    <ul class="table-space-questions">&nbsp;
+  <section class="container">
+      <img id= "img" src="https://pbs.twimg.com/profile_images/2325717577/icon.png">
+      <h1>RIDE FAQ</h1>
+      <h3>You Asked, We Answered!</h3>
+  </section>
+  <nav>
+    <ul>
       <li><a href="#ride1" onclick="highlight('ride1');">What is Ride?</a></li>
       <li><a href="#ride2" onclick="highlight('ride2');">How does Ride work?</a></li>
       <li><a href="#ride3" onclick="highlight('ride3');">What are Ride points?</a></li>
@@ -71,82 +70,59 @@
       <li><a href="#ride21" onclick="highlight('ride21');">Will points expire?</a></li>
       <li><a href="#ride22" onclick="highlight('ride22');">Why was my redemption denied?</a></li>
     </ul>
-  </div>
-  <hr />
-  <div class="table-space-answers">
-    <div id="ride1" class="answer-title"><a href="#top">What is Ride?</a>
-      <p class="answer-body">Ride is a rewards network that gives you points for travel. You can travel by car, bus, train, bike, subway, or walking! Just remember flight miles do not count!</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride2" class="answer-title"><a href="#top">How does Ride work?</a>
-      <p class="answer-body">When you have Ride with you (installed on your phone), the app will record the number of miles you travel. Then, Ride automatically converts your miles into Ride points.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride3" class="answer-title"><a href="#top">What are Ride points?</a>
-      <p class="answer-body">Ride points are the currency of the Ride Rewards Program. They are redeemable for real rewards through Ride, such as gift cards to companies like Amazon, Dunkin Doughnuts, CVS, Home Depot, Regal, and more! Rewards are subject to change!</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride4" class="answer-title"><a href="#top">Does Ride drain my battery?</a>
-      <p class="answer-body">No. We’ve optimized Ride to use the least power while still giving you the most points. If you’re really concerned about your battery, consider turning off any unnecessary or unused functions, like Bluetooth or Wi-Fi when you aren’t using them.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride5" class="answer-title"><a href="#top">How do I earn Ride points?</a>
-      <p class="answer-body">First, install Ride on your iPhone (Yes, Sorry iPhone only). Then, the next time you go anywhere, take your phone (and Ride) with you. Ride will keep a running total of how many miles you travel and convert them into Ride points. Please remember, flight miles are against out Terms and Conditions. Please make sure you force quit the app before air travel. Rewards can be denied if we see flight activity.</p></div>
-      <td class="answer-space" >&nbsp;</td>
-    <div id="ride6" class="answer-title"><a href="#top">How else can I earn Ride Points?</a>
-      <p class="answer-body">You can like us on <a href="http://www.facebook.com/pages/The-Ride-App/329703750457917">Facebook</a> and comment on our daily posts for 50-100 points, dependng on how long your answer is. Please read the rules on the daily Facebook posts to make sure your get your points! We recommend staying up to date by following us on <a href="http://www.facebook.com/pages/The-Ride-App/329703750457917">Facebook</a> Try and win more our NEW slot machine! Play at your own risk! We do try and offer other rewards for users who don't accumulate a lot of points. We offer a monthly sweepstakes that cost you a low amount of points to enter for a chance to win a gift card that would normally cost you much more. </p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride7" class="answer-title"><a href="#top"> How many Ride points are in a mile?</a>
-      <p class="answer-body">Approximately 1-3 points per mile depending on a range of factors, including the accuracy of the location data we receive, whether that data is received from a cellular network or GPS network, and the specific settings on your phone. If you want to learn more about location services and the settings on your phone, Apple has a very good explanation on this page.</div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride8" class="answer-title"><a href="#top">How do I redeem my Ride points?</a>
-      <p class="answer-body">Open the Ride app, click the “Rewards” button in the bottom right corner, select the reward you want, and click “Redeem”. Please note, it takes 1-2 business days to process redemptions. We have to make sure each user is complying with our Terms and Conditions before sending out rewards. Unfortunately, the codes are not sent immediately.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride9" class="answer-title"><a href="#top">Why can't I invite friends?</a>
-      <p class="answer-body">Sorry about that! We are unable to fix the option to invite friends with our new update. We continued to have problems with referring friends and tried to fix it but unfortunately we were unable to do so. The refer friends was removed with our latest update. We hope you understand and sorry for any inconvenience.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride10" class="answer-title"><a href="#top">I should have received Ride points, but my odometer hasn’t changed. What’s going on?</a>
+  </nav>
+  <ul>
+    <li id="ride1" class="answer-title"><a href="#top">What is Ride?</a>
+      <p class="answer-body">Ride is a rewards network that gives you points for travel. You can travel by car, bus, train, bike, subway, or walking! Just remember flight miles do not count!</p></li>
+      <li id="ride2" class="answer-title"><a href="#top">How does Ride work?</a>
+      <p class="answer-body">When you have Ride with you (installed on your phone), the app will record the number of miles you travel. Then, Ride automatically converts your miles into Ride points.</p></li>
+    <li id="ride3" class="answer-title"><a href="#top">What are Ride points?</a>
+      <p class="answer-body">Ride points are the currency of the Ride Rewards Program. They are redeemable for real rewards through Ride, such as gift cards to companies like Amazon, Dunkin Doughnuts, CVS, Home Depot, Regal, and more! Rewards are subject to change!</p></li>
+    <li id="ride4" class="answer-title"><a href="#top">Does Ride drain my battery?</a>
+      <p class="answer-body">No. We’ve optimized Ride to use the least power while still giving you the most points. If you’re really concerned about your battery, consider turning off any unnecessary or unused functions, like Bluetooth or Wi-Fi when you aren’t using them.</p></li>
+    <li id="ride5" class="answer-title"><a href="#top">How do I earn Ride points?</a>
+      <p class="answer-body">First, install Ride on your iPhone (Yes, Sorry iPhone only). Then, the next time you go anywhere, take your phone (and Ride) with you. Ride will keep a running total of how many miles you travel and convert them into Ride points. Please remember, flight miles are against out Terms and Conditions. Please make sure you force quit the app before air travel. Rewards can be denied if we see flight activity.</p></li>
+    <li id="ride6" class="answer-title"><a href="#top">How else can I earn Ride Points?</a>
+      <p class="answer-body">You can like us on <a href="http://www.facebook.com/pages/The-Ride-App/329703750457917">Facebook</a> and comment on our daily posts for 50-100 points, dependng on how long your answer is. Please read the rules on the daily Facebook posts to make sure your get your points! We recommend staying up to date by following us on <a href="http://www.facebook.com/pages/The-Ride-App/329703750457917">Facebook</a> Try and win more our NEW slot machine! Play at your own risk! We do try and offer other rewards for users who don't accumulate a lot of points. We offer a monthly sweepstakes that cost you a low amount of points to enter for a chance to win a gift card that would normally cost you much more. </p></li>
+    <li id="ride7" class="answer-title"><a href="#top"> How many Ride points are in a mile?</a>
+      <p class="answer-body">Approximately 1-3 points per mile depending on a range of factors, including the accuracy of the location data we receive, whether that data is received from a cellular network or GPS network, and the specific settings on your phone. If you want to learn more about location services and the settings on your phone, Apple has a very good explanation on this page.</li>
+    <li id="ride8" class="answer-title"><a href="#top">How do I redeem my Ride points?</a>
+      <p class="answer-body">Open the Ride app, click the “Rewards” button in the bottom right corner, select the reward you want, and click “Redeem”. Please note, it takes 1-2 business days to process redemptions. We have to make sure each user is complying with our Terms and Conditions before sending out rewards. Unfortunately, the codes are not sent immediately.</p></li>
+    <li id="ride9" class="answer-title"><a href="#top">Why can't I invite friends?</a>
+      <p class="answer-body">Sorry about that! We are unable to fix the option to invite friends with our new update. We continued to have problems with referring friends and tried to fix it but unfortunately we were unable to do so. The refer friends was removed with our latest update. We hope you understand and sorry for any inconvenience.</p></li>
+    <li id="ride10" class="answer-title"><a href="#top">I should have received Ride points, but my odometer hasn’t changed. What’s going on?</a>
       <p class="answer-body">There are a few things that could be going on. Points can take up to 24 hours to credit to your account. Are you using iOS7 or iOS8? Please make sure you have your location services enabled for Ride and you are updated to the current version of Ride. Make sure Background Refresh is enabled for Ride. This was new to iOS7 and causing a lot of location service apps to not work properly. It is also used in iOS8:
       General>Settings>Background Refresh>ON.
       Please DO NOT Force quit the app. If you do please make sure you start Ride up again or it will not count milage or points. Only Force Quit when you are flying.
-      If your points balance still hasn’t updated,please send an email to support at <a href="mailto:support@therideapp.com?subject=Question%20about%20points">support@therideapp.com</a>. Make sure you use the same email address that you use for facebook otherwise we won’t be able to find you in our system.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride11" class="answer-title"><a href="#top">Does Ride work with an iTouch or iPad?</a>
-      <p class="answer-body">The iTouch and iPad are not currently supported by Ride.</p>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride12" class="answer-title"><a href="#top">Can I use my Ride account on more than one device?</a>
-      <p class="answer-body">No. Ride does not allow more than one device per account. You may, however, un-install Ride from a device and then install it on another as long as you stay connected to the same Facebook account.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride13" class="answer-title"><a href="#top">Why do you ask for so many Facebook permissions?</a>
-      <p class="answer-body">We ask for Facebook permissions mainly for authentication purposes. When you redeem a reward, we use Facebook permissions to verify that you are the owner of the Ride account, and we also use Facebook to deliver Ride Rewards.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride14" class="answer-title"><a href="#top">How do I log in if I don't have Facebook?</a>
-      <p class="answer-body">While you can earn points with Ride without connecting to Facebook, there is currently no other way to log in and redeem rewards. We use Facebook as an integral part of our verification process whenever you redeem a reward. This allows us to ensure that your rewards go to you, and only you. For this reason, we ask that you use your real Facebook account and not a duplicate.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride15" class="answer-title"><a href="#top">Why does Ride ask that I enable location services?</a>
-      <p class="answer-body">We ask for location services so we can tell that you’ve moved from one place to another. If you’re concerned about your battery or privacy, we use a less accurate method for counting miles to preserve both battery and privacy. This does mean there is unaccuracy with milage.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride16" class="answer-title"><a href="#top">Why can’t I log in to Facebook?</a>
-      <p class="answer-body">You should be able to log in to Facebook. Please make sure you are updated to the current version of Ride. If you can’t log in, you are most likely either experiencing a bug (and should contact support), outside of the U.S., or under 18 years of age. If you are outside the U.S. or under 18, please read the Terms and Conditions, which state that you must be 18 years or older and that Ride is unable to support international users at this time.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride17" class="answer-title"><a href="#top">I want better mileage from Ride. Are you going to fix it?</a>
-      <p class="answer-body">Unfortunately, due to technology’s imperfections, it is unlikely that Ride will ever be 100% accurate. We will release an optional GPS mode that will significantly improve your mileage, but drain your battery.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride18" class="answer-title"><a href="#top">My points aren’t updating. What do I do?!</a>
+      If your points balance still hasn’t updated,please send an email to support at <a href="mailto:support@therideapp.com?subject=Question%20about%20points">support@therideapp.com</a>. Make sure you use the same email address that you use for facebook otherwise we won’t be able to find you in our system.</p></li>
+    <li id="ride11" class="answer-title"><a href="#top">Does Ride work with an iTouch or iPad?</a>
+      <p class="answer-body">The iTouch and iPad are not currently supported by Ride.</p></li>
+    <li id="ride12" class="answer-title"><a href="#top">Can I use my Ride account on more than one device?</a>
+      <p class="answer-body">No. Ride does not allow more than one device per account. You may, however, un-install Ride from a device and then install it on another as long as you stay connected to the same Facebook account.</p></li>
+    <li id="ride13" class="answer-title"><a href="#top">Why do you ask for so many Facebook permissions?</a>
+      <p class="answer-body">We ask for Facebook permissions mainly for authentication purposes. When you redeem a reward, we use Facebook permissions to verify that you are the owner of the Ride account, and we also use Facebook to deliver Ride Rewards.</p></li>
+    <li id="ride14" class="answer-title"><a href="#top">How do I log in if I don't have Facebook?</a>
+      <p class="answer-body">While you can earn points with Ride without connecting to Facebook, there is currently no other way to log in and redeem rewards. We use Facebook as an integral part of our verification process whenever you redeem a reward. This allows us to ensure that your rewards go to you, and only you. For this reason, we ask that you use your real Facebook account and not a duplicate.</p></li>
+    <li id="ride15" class="answer-title"><a href="#top">Why does Ride ask that I enable location services?</a>
+      <p class="answer-body">We ask for location services so we can tell that you’ve moved from one place to another. If you’re concerned about your battery or privacy, we use a less accurate method for counting miles to preserve both battery and privacy. This does mean there is unaccuracy with milage.</p></li>
+    <li id="ride16" class="answer-title"><a href="#top">Why can’t I log in to Facebook?</a>
+      <p class="answer-body">You should be able to log in to Facebook. Please make sure you are updated to the current version of Ride. If you can’t log in, you are most likely either experiencing a bug (and should contact support), outside of the U.S., or under 18 years of age. If you are outside the U.S. or under 18, please read the Terms and Conditions, which state that you must be 18 years or older and that Ride is unable to support international users at this time.</p></li>
+    <li id="ride17" class="answer-title"><a href="#top">I want better mileage from Ride. Are you going to fix it?</a>
+      <p class="answer-body">Unfortunately, due to technology’s imperfections, it is unlikely that Ride will ever be 100% accurate. We will release an optional GPS mode that will significantly improve your mileage, but drain your battery.</p></li>
+    <li id="ride18" class="answer-title"><a href="#top">My points aren’t updating. What do I do?!</a>
       <p class="answer-body">First, refresh your points total. Just open the rewards screen and then switch back to the odometer.Are you using iOS7 or iOS8? Please make sure you have your location services enabled for Ride and you are updated to the current version of Ride. Make sure Background Refresh is enabled for Ride.This was new to iOS7 and causing a lot of location service apps to not work properly. It is also used in iOS8.
       General>Settings>Background Refresh>ON.
-      Please DO NOT Force quit the app. If you do please make sure you start Ride up again or it will not count milage or points. Only Force Quit when you are flying.If that doesn’t work, try disconnected and re-connecting to Facebook within the app. If that still doesn’t update your points, please contact support immediately and let them know which of the above steps you have already taken.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride19" class="answer-title"><a href="#top">I lost almost all of my points! How do I get them back?</a>
+      Please DO NOT Force quit the app. If you do please make sure you start Ride up again or it will not count milage or points. Only Force Quit when you are flying.If that doesn’t work, try disconnected and re-connecting to Facebook within the app. If that still doesn’t update your points, please contact support immediately and let them know which of the above steps you have already taken.</p></li>
+    <li id="ride19" class="answer-title"><a href="#top">I lost almost all of my points! How do I get them back?</a>
       <p class="answer-body">Don’t panic. You most likely disconnected from your Ride account. Disconnect and re-connect to Facebook within the app (make sure it is the same Facebook you started Ride with), then refresh your points total by going to the rewards screen and then switching back to the odometer. If that doesn’t work, please contact support and let them know which of the above steps you have already taken.
-      </p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride20" class="answer-title"><a href="#top">Do points expire?</a>
-      <p class="answer-body">Yes, points expire after 90 days of inactivity. If you do not use your Ride account for 90 days, your points will expire.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride21" class="answer-title"><a href="#top">Will points expire?</a>
-      <p class="answer-body">Yes, and we will notify you before they begin to expire. Points will expire on a rolling basis, meaning that once a certain point is 90 days old, it will expire the next day. There will most likely be multiple ways to save your points from expiration, as well.</p></div>
-      <div class="answer-space" >&nbsp;</div>
-    <div id="ride22" class="answer-title"><a href="#top">Why was my redemption denied?</a>
+      </p></li>
+    <li id="ride20" class="answer-title"><a href="#top">Do points expire?</a>
+      <p class="answer-body">Yes, points expire after 90 days of inactivity. If you do not use your Ride account for 90 days, your points will expire.</p></li>
+    <li id="ride21" class="answer-title"><a href="#top">Will points expire?</a>
+      <p class="answer-body">Yes, and we will notify you before they begin to expire. Points will expire on a rolling basis, meaning that once a certain point is 90 days old, it will expire the next day. There will most likely be multiple ways to save your points from expiration, as well.</p></li>
+    <li id="ride22" class="answer-title"><a href="#top">Why was my redemption denied?</a>
       <p class="answer-body">If your redemption has been denied, we either saw suspicious activity ( jailbroken phones or spoofing), airline miles being accumulated, or we see over user activity. Meaning, employed in or engaged in professional transit (including but without limitation bus drivers, cab drivers, semi-truck drivers, delivery drivers, airline pilots, airline stewardesses and stewards, train engineers, etc.).
-      Please remember that as a part of our Terms and Conditions, points accumulated by any of the actions mentioned do not count towards points in your account.  We take 1-2 business days to approve or deny your redemption because we have to make sure that users are complying with our Terms and Conditions. Please keep in mind when you redeem a gift card, you are agreeing to our Terms and Conditions and points cannot be credited back to the account because the points accumulated were against our Terms and Conditions. If you have further questions, please contact support.</p></div>
-      <div class="answer-space" >&nbsp;</div>
+      Please remember that as a part of our Terms and Conditions, points accumulated by any of the actions mentioned do not count towards points in your account.  We take 1-2 business days to approve or deny your redemption because we have to make sure that users are complying with our Terms and Conditions. Please keep in mind when you redeem a gift card, you are agreeing to our Terms and Conditions and points cannot be credited back to the account because the points accumulated were against our Terms and Conditions. If you have further questions, please contact support.</p></li>
     <footer>If you have any questions, thoughts, concerns or feedback, please don't hesitate to email us at <a href="mailto:support@therideapp.com">support@therideapp.com</a>.</footer>
   </div>
 </body>
